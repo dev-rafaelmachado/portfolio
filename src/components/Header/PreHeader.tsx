@@ -1,13 +1,10 @@
+'use client'
+import { useLanguage } from '@/contexts/LanguageContext'
+import extrasJSON from '../../static/extras.json'
 import { Navlinks } from './Navlinks'
 
-const linksList = [
-  { name: 'study', url: '#' },
-  { name: 'work', url: '#' },
-  { name: 'projects', url: '#' },
-  { name: 'blog', url: '#' },
-]
-
 export const PreHeader = () => {
+  const { language } = useLanguage()
   return (
     <div className="flex h-14 w-full">
       <div className="flex h-full w-full items-center justify-center rounded-t-xl bg-white lg:w-2/6">
@@ -16,7 +13,7 @@ export const PreHeader = () => {
         </a>
       </div>
       <div className="hidden bg-background lg:block lg:h-14 lg:w-4/6">
-        <Navlinks links={linksList} />
+        <Navlinks links={extrasJSON[language].nav} />
       </div>
     </div>
   )

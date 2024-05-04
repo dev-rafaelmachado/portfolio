@@ -1,0 +1,50 @@
+{
+    "en": {
+        "nav": [
+            {
+                "name": "study",
+                "url": "#study"
+            },
+            {
+                "name": "work",
+                "url": "#work"
+            },
+            {
+                "name": "projects",
+                "url": "#projects"
+            },
+            {
+                "name": "blog",
+                "url": "/blog"
+            }
+        ],
+        "bio": "Hi, I'm Rafael. A passionate Web Developer diving deep into the Javascript stack, and an enthusiast of Rust-lang.",
+        "now": "now",
+        "function": "function",
+        "position": "position"
+    },
+    "pt_br": {
+        "nav": [
+            {
+                "name": "estudo",
+                "url": "#study"
+            },
+            {
+                "name": "trabalho",
+                "url": "#work"
+            },
+            {
+                "name": "projetos",
+                "url": "#projects"
+            },
+            {
+                "name": "blog",
+                "url": "/blog"
+            }
+        ],
+        "bio": "Olá, eu sou Rafael. Um desenvolvedor web apaixonado mergulhando fundo na stack Javascript, e um entusiasta da linguagem Rust.",
+        "now": "agora",
+        "function": "função",
+        "position": "posição"
+    }
+}

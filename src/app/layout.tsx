@@ -2,6 +2,7 @@
 import type { Metadata } from 'next'
 import { Lato, Open_Sans } from 'next/font/google'
 import './globals.css'
+import { WrapperProvider } from '@/contexts/WrapperProvider'
 
 const lato = Lato({
   weight: ['100', '300', '400', '700', '900'],
@@ -25,7 +26,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${lato.className} ${openSans.className}`}>
-        {children}
+        <WrapperProvider>{children}</WrapperProvider>
       </body>
     </html>
   )

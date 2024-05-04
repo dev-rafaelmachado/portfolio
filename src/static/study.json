@@ -1,0 +1,40 @@
+{
+    "en": [
+        {
+            "title": "Bachelor's Degree in Computer Science",
+            "local": "PUCPR",
+            "initialDate": "2022-01-02",
+            "finalDate": null,
+            "description":
+              "I am currently pursuing a Bachelor's Degree in Computer Science, where I have delved into concepts such as Logic Mathematics, Software Architecture, Data Structures, Algorithm Complexity, Machine Learning, and more, expanding my understanding and skills in the tech field."
+          },
+          {
+            "title": "Computer Technician",
+            "local": "TECPUC",
+            "initialDate": "2019-01-02",
+            "finalDate": "2021-12-02",
+            "description":
+              "During high school at TECPUC, I pursued a technical degree in informatics, where I was introduced to essential concepts across various tech fields, from programming to design, networking, and more.",
+            "isFinal": true
+          }
+    ],
+    "pt_br": [
+        {
+            "title": "Bacharelado em Ciência da Computação",
+            "local": "PUCPR",
+            "initialDate": "2022-01-02",
+            "finalDate": null,
+            "description":
+              "Atualmente, estou cursando Bacharelado em Ciência da Computação, onde aprofundei conceitos como Matemática Lógica, Arquitetura de Software, Estruturas de Dados, Complexidade de Algoritmos, Aprendizado de Máquina e mais, expandindo minha compreensão e habilidades no campo da tecnologia."
+          },
+          {
+            "title": "Técnico em Informática",
+            "local": "TECPUC",
+            "initialDate": "2019-01-02",
+            "finalDate": "2021-12-02",
+            "description":
+              "Durante o ensino médio no TECPUC, cursei um técnico em informática, onde fui introduzido a conceitos essenciais em diversos campos da tecnologia, desde programação até design, redes e mais.",
+            "isFinal": true
+          }
+    ]
+}

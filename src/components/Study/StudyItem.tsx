@@ -3,8 +3,8 @@ import { yearPeriod } from '@/utils/yearPeriod'
 export type TStudyItem = {
   title: string
   local: string
-  initialDate: Date
-  finalDate: Date | null
+  initialDate: Date | string
+  finalDate: Date | string | null
   description: string
 
   isFinal?: boolean
