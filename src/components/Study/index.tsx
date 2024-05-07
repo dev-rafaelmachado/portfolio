@@ -1,12 +1,12 @@
 'use client'
 import { StudyItem } from './StudyItem'
 import { useLanguage } from '@/contexts/LanguageContext'
-import studyJSON from '../../static/study.json'
+import studyJSON from '@/static/json/study.json'
 
 export const Study = () => {
   const { language } = useLanguage()
   return (
-    <section>
+    <section id="study">
       <h1 className="font-title text-4xl font-black text-[#316D98]">
         study //
       </h1>

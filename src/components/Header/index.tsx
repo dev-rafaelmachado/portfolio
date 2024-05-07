@@ -1,47 +1,11 @@
 'use client'
 
-import Image from 'next/image'
+import extrasJson from '@/static/json/extras.json'
+import { socialsList } from '@/static/ts/socials'
 import { useLanguage } from '@/contexts/LanguageContext'
-import extrasJson from '@/static/extras.json'
-import {
-  GithubLogo,
-  InstagramLogo,
-  LinkedinLogo,
-  TwitterLogo,
-} from '@phosphor-icons/react/dist/ssr'
 import { PreHeader } from './PreHeader'
-import { Social, Socials } from './Socials'
-
-const socialsList: Social[] = [
-  {
-    name: 'Twitter',
-    url: '#',
-    className: 'hover:text-[#7ABFF6]',
-    iconColor: '#7ABFF6',
-    icon: TwitterLogo,
-  },
-  {
-    name: 'Instagram',
-    url: '#',
-    className: 'hover:text-[#EE613C]',
-    iconColor: '#EE613C',
-    icon: InstagramLogo,
-  },
-  {
-    name: 'Linkedin',
-    url: '#',
-    className: 'hover:text-[#64A3DD]',
-    iconColor: '#64A3DD',
-    icon: LinkedinLogo,
-  },
-  {
-    name: 'Github',
-    url: '#',
-    className: 'hover:text-[#CDC8C2]',
-    iconColor: '#CDC8C2',
-    icon: GithubLogo,
-  },
-]
+import { Socials } from './Socials'
+import Image from 'next/image'
 
 export const Header = () => {
   const { language } = useLanguage()

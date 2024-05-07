@@ -1,13 +1,13 @@
 'use client'
-import workJSON from '../../static/work.json'
-import extrasJSON from '../../static/extras.json'
+import workJSON from '@/static/json/work.json'
+import extrasJSON from '@/static/json/extras.json'
 import { WorkItem } from './WorkItem'
 import { useLanguage } from '@/contexts/LanguageContext'
 
 export const Work = () => {
   const { language } = useLanguage()
   return (
-    <section>
+    <section id="work">
       <h1 className="font-title text-4xl font-black text-[#316D98]">
         {`${extrasJSON[language].nav[1].name} //`}
       </h1>

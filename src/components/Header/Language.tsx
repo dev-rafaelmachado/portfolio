@@ -14,9 +14,10 @@ type Props = {
     label: string
     iconPath: string
   }[]
+  mobile?: boolean
 }
 
-export const Language = ({ items }: Props) => {
+export const Language = ({ items, mobile }: Props) => {
   const { setLanguage, language } = useLanguage()
   return (
     <div className="flex items-center justify-start px-4">
@@ -41,7 +42,9 @@ export const Language = ({ items }: Props) => {
                     width={20}
                     height={20}
                   />
-                  <span className="ml-2 ">{item.label}</span>
+                  <span className={`${!mobile ? 'w-fit' : 'w-4'} ml-2`}>
+                    {item.label}
+                  </span>
                 </div>
               </SelectItem>
             )
