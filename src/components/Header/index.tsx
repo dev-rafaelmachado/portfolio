@@ -1,4 +1,8 @@
+'use client'
+
 import Image from 'next/image'
+import { useLanguage } from '@/contexts/LanguageContext'
+import extrasJson from '@/static/extras.json'
 import {
   GithubLogo,
   InstagramLogo,
@@ -7,11 +11,6 @@ import {
 } from '@phosphor-icons/react/dist/ssr'
 import { PreHeader } from './PreHeader'
 import { Social, Socials } from './Socials'
-
-const badgeText = {
-  en: "Hi, I'm Rafael. A passionate Web Developer diving deep into the Javascript stack, and an enthusiast of Rust-lang.",
-  pt: 'Olá, eu sou Rafael. Um desenvolvedor web apaixonado mergulhando fundo na stack Javascript, e um entusiasta da linguagem Rust.',
-}
 
 const socialsList: Social[] = [
   {
@@ -45,6 +44,7 @@ const socialsList: Social[] = [
 ]
 
 export const Header = () => {
+  const { language } = useLanguage()
   return (
     <section className="w-full">
       <PreHeader />
@@ -61,7 +61,7 @@ export const Header = () => {
         <div className="flex h-full w-full flex-col items-center justify-center gap-6 px-4">
           <div>
             <p className="text-center font-default text-xl font-bold lg:text-left">
-              {badgeText.en}
+              {extrasJson[language].bio}
             </p>
           </div>
           <Socials socials={socialsList} />

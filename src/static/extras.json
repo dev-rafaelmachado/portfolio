@@ -42,9 +42,21 @@
                 "url": "/blog"
             }
         ],
-        "bio": "Olá, eu sou Rafael. Um desenvolvedor web apaixonado mergulhando fundo na stack Javascript, e um entusiasta da linguagem Rust.",
+        "bio": "Olá, me chamo Rafael. Um desenvolvedor web apaixonado mergulhando na stack Javascript, e um entusiasta de Rust.",
         "now": "agora",
         "function": "função",
         "position": "posição"
-    }
+    },
+    "lang": [
+        {
+            "name": "en",
+            "label": "English",
+            "iconPath": "/svg/flags/us.svg"
+        },
+        {
+            "name": "pt_br",
+            "label": "Português",
+            "iconPath": "/svg/flags/pt_br.svg"
+        }
+    ]
 }

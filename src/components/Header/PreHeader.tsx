@@ -2,6 +2,7 @@
 import { useLanguage } from '@/contexts/LanguageContext'
 import extrasJSON from '../../static/extras.json'
 import { Navlinks } from './Navlinks'
+import { Language } from './Language'
 
 export const PreHeader = () => {
   const { language } = useLanguage()
@@ -13,7 +14,12 @@ export const PreHeader = () => {
         </a>
       </div>
       <div className="hidden bg-background lg:block lg:h-14 lg:w-4/6">
-        <Navlinks links={extrasJSON[language].nav} />
+        <nav className="h-full w-full">
+          <ul className="flex h-full w-full items-center justify-between">
+            <Language items={extrasJSON.lang} />
+            <Navlinks links={extrasJSON[language].nav} />
+          </ul>
+        </nav>
       </div>
     </div>
   )
