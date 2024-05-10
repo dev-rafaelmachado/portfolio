@@ -8,7 +8,7 @@ export const PreHeader = () => {
   const { language } = useLanguage()
   return (
     <div className="flex h-14 w-full">
-      <div className="flex h-full w-full items-center justify-between rounded-t-xl bg-white px-2 lg:w-2/6 lg:justify-center">
+      <div className="bg-custom dark:bg-custom-dark flex h-full w-full items-center justify-between rounded-t-xl px-2 lg:w-2/6 lg:justify-center">
         <a href="#" className="font-title text-2xl font-bold">
           <u className="decoration-gray-700">dev-rafaelmachado</u>
         </a>
@@ -16,7 +16,7 @@ export const PreHeader = () => {
           <Language items={extrasJSON.lang} mobile />
         </div>
       </div>
-      <div className="hidden bg-background lg:block lg:h-14 lg:w-4/6">
+      <div className="hidden bg-background dark:bg-background-dark lg:block lg:h-14 lg:w-4/6">
         <nav className="h-full w-full">
           <ul className="flex h-full w-full items-center justify-between">
             <Language items={extrasJSON.lang} />

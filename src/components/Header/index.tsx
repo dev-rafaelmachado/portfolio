@@ -12,7 +12,7 @@ export const Header = () => {
   return (
     <section className="w-full">
       <PreHeader />
-      <div className="flex h-max w-full flex-col gap-4 rounded-b-xl bg-white py-4 lg:h-44 lg:flex-row lg:gap-0 lg:rounded-r-xl lg:py-0">
+      <div className="bg-custom dark:bg-custom-dark flex h-max w-full flex-col gap-4 rounded-b-xl py-4 lg:h-44 lg:flex-row lg:gap-0 lg:rounded-r-xl lg:py-0">
         <div className="flex h-full w-full items-center justify-center lg:w-3/6 ">
           <Image
             alt="profile"

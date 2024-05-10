@@ -22,8 +22,22 @@ const config = {
         border: 'hsl(var(--border))',
         input: 'hsl(var(--input))',
         ring: 'hsl(var(--ring))',
-        background: '#212121',
-        foreground: 'hsl(var(--foreground))',
+        background: {
+          DEFAULT: '#1E2933',
+          dark: '#191B1C',
+        },
+        textColor: {
+          DEFAULT: '#54E9E0',
+          dark: '#316D98',
+        },
+        custom: {
+          DEFAULT: '#F5F5F5',
+          dark: '#ffffff',
+        },
+        dotColor: {
+          DEFAULT: '#5E8EC7',
+          dark: '#9BC3DE',
+        },
         primary: {
           DEFAULT: 'hsl(var(--primary))',
           foreground: 'hsl(var(--primary-foreground))',

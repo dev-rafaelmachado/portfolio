@@ -7,7 +7,7 @@ export const Study = () => {
   const { language } = useLanguage()
   return (
     <section id="study">
-      <h1 className="font-title text-4xl font-black text-[#316D98]">
+      <h1 className="font-title text-4xl font-black text-textColor dark:text-textColor-dark">
         study //
       </h1>
       <div className="mt-12 pl-4 lg:pl-8">

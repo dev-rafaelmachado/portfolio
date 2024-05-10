@@ -28,10 +28,10 @@ export const Language = ({ items, mobile }: Props) => {
         value={language}
         defaultValue="en"
       >
-        <SelectTrigger className="w-fit bg-white">
+        <SelectTrigger className="bg-custom dark:bg-custom-dark w-fit">
           <SelectValue placeholder="language" />
         </SelectTrigger>
-        <SelectContent>
+        <SelectContent className="bg-background text-white dark:bg-background-dark">
           {items.map((item, index) => {
             return (
               <SelectItem key={index} value={item.name}>

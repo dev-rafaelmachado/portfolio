@@ -8,7 +8,7 @@ export const Work = () => {
   const { language } = useLanguage()
   return (
     <section id="work">
-      <h1 className="font-title text-4xl font-black text-[#316D98]">
+      <h1 className="font-title text-4xl font-black text-textColor dark:text-textColor-dark">
         {`${extrasJSON[language].nav[1].name} //`}
       </h1>
       <div className="mt-12 pl-2 lg:pl-4">
