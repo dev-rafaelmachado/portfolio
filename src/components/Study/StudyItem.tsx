@@ -21,7 +21,7 @@ export const StudyItem = ({
   return (
     <div className={`group flex gap-6`}>
       <div className="relative flex flex-col items-center justify-start">
-        <div className="border-dotColor dark:border-dotColor-dark group-hover:bg-dotColor dark:group-hover:bg-dotColor-dark h-8 w-8 rounded-full border-8 border-solid bg-transparent transition-colors duration-150 ease-in-out" />
+        <div className="h-8 w-8 rounded-full border-8 border-solid border-dotColor bg-transparent transition-colors duration-150 ease-in-out group-hover:bg-dotColor dark:border-dotColor-dark dark:group-hover:bg-dotColor-dark" />
         {!isFinal && (
           <div className="absolute top-8 h-[calc(100%+8px)] w-[1px] bg-[#B1B1B1]" />
         )}

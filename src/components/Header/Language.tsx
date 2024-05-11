@@ -28,7 +28,7 @@ export const Language = ({ items, mobile }: Props) => {
         value={language}
         defaultValue="en"
       >
-        <SelectTrigger className="bg-custom dark:bg-custom-dark w-fit">
+        <SelectTrigger className="w-fit bg-custom dark:bg-custom-dark">
           <SelectValue placeholder="language" />
         </SelectTrigger>
         <SelectContent className="bg-background text-white dark:bg-background-dark">
