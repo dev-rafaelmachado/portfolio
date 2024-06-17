@@ -32,7 +32,7 @@
         {
             "title": "Distinct Colors",
             "description": "Distinct Colors é um jogo desenvolvido com React Native e Expo, onde o objetivo é clicar na cor que difere das outras.O jogo possui três níveis de dificuldade: fácil, médio e difícil, e um modo 'escalada' onde a dificuldade aumenta a cada rodada. O jogo possui um sistema de pontuação e recordes, além de salvar o progresso do jogador.",
-            "img": "/imgs/projects/",
+            "img": "/imgs/projects/distinct-colors.png",
             "githubLink": "https://github.com/dev-rafaelmachado/distinct-colors"
         },
         {
