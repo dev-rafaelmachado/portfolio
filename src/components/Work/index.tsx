@@ -9,7 +9,7 @@ export const Work = () => {
   return (
     <section id="work">
       <h1 className="font-title text-4xl font-black text-textColor dark:text-textColor-dark">
-        {`${extrasJSON[language].nav[1].name} //`}
+        {extrasJSON[language].nav[0].name} //
       </h1>
       <div className="mt-12 pl-2 lg:pl-4">
         <ul className="flex w-full flex-col gap-2">
