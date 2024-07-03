@@ -1,4 +1,4 @@
-import { Social } from '@/components/header/Socials'
+import { Social } from '@/components/sections/header/Socials'
 import {
   GithubLogo,
   InstagramLogo,
