@@ -17,7 +17,7 @@ export const ProjectItem = ({
   demoLink,
 }: ProjectItemProps) => {
   return (
-    <div className="flex w-full flex-col rounded-lg bg-item-card shadow-slim lg:h-60 lg:flex-row">
+    <div className="flex w-full flex-col rounded-lg bg-item-card shadow-slim shadow-[#1a232b] lg:h-60 lg:flex-row dark:shadow-[#121314] dark:shadow-slim">
       <div className="relative h-60 w-full overflow-hidden rounded-l-lg lg:w-1/3">
         <Image
           src={img}
