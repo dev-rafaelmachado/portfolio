@@ -1,6 +1,7 @@
 /* eslint-disable camelcase */
 import type { Metadata } from 'next'
 import { Lato, Open_Sans } from 'next/font/google'
+
 import './globals.css'
 import { WrapperProvider } from '@/contexts/WrapperProvider'
 

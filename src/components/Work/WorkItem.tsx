@@ -1,6 +1,7 @@
 /* eslint-disable @next/next/no-img-element */
-import { yearPeriod } from '@/utils/yearPeriod'
 import Image from 'next/image'
+
+import { yearPeriod } from '@/utils/yearPeriod'
 
 export type TWorkItem = {
   title: string

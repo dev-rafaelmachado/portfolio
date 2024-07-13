@@ -1,18 +1,21 @@
 'use client'
 
+import Image from 'next/image'
+
+import { useLanguage } from '@/contexts/LanguageContext'
+
 import extrasJson from '@/static/json/extras.json'
 import { socialsList } from '@/static/ts/socials'
-import { useLanguage } from '@/contexts/LanguageContext'
+
 import { PreHeader } from './PreHeader'
 import { Socials } from './Socials'
-import Image from 'next/image'
 
 export const Header = () => {
   const { language } = useLanguage()
   return (
     <section className="w-full">
       <PreHeader />
-      <div className="bg-custom dark:bg-custom-dark flex h-max w-full flex-col gap-4 rounded-b-xl py-4 lg:h-44 lg:flex-row lg:gap-0 lg:rounded-r-xl lg:py-0">
+      <div className="flex h-max w-full flex-col gap-4 rounded-b-xl bg-custom py-4 dark:bg-custom-dark lg:h-44 lg:flex-row lg:gap-0 lg:rounded-r-xl lg:py-0">
         <div className="flex h-full w-full items-center justify-center lg:w-3/6 ">
           <Image
             alt="profile"

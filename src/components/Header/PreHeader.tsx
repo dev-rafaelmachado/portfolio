@@ -1,14 +1,16 @@
 'use client'
 import { useLanguage } from '@/contexts/LanguageContext'
+
 import extrasJSON from '@/static/json/extras.json'
-import { Navlinks } from './Navlinks'
+
 import { Language } from './Language'
+import { Navlinks } from './Navlinks'
 
 export const PreHeader = () => {
   const { language } = useLanguage()
   return (
     <div className="flex h-14 w-full">
-      <div className="bg-custom dark:bg-custom-dark flex h-full w-full items-center justify-between rounded-t-xl px-2 lg:w-2/6 lg:justify-center">
+      <div className="flex h-full w-full items-center justify-between rounded-t-xl bg-custom px-2 dark:bg-custom-dark lg:w-2/6 lg:justify-center">
         <a href="#" className="font-title text-2xl font-bold">
           <u className="decoration-gray-700">dev-rafaelmachado</u>
         </a>

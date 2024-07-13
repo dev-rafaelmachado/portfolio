@@ -1,7 +1,9 @@
 'use client'
-import { StudyItem } from './StudyItem'
 import { useLanguage } from '@/contexts/LanguageContext'
+
 import studyJSON from '@/static/json/study.json'
+
+import { StudyItem } from './StudyItem'
 
 export const Study = () => {
   const { language } = useLanguage()

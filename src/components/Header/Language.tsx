@@ -1,4 +1,5 @@
-import { useLanguage } from '@/contexts/LanguageContext'
+import Image from 'next/image'
+
 import {
   Select,
   SelectTrigger,
@@ -6,7 +7,8 @@ import {
   SelectItem,
   SelectValue,
 } from '@/components/ui/select'
-import Image from 'next/image'
+
+import { useLanguage } from '@/contexts/LanguageContext'
 
 type Props = {
   items: {
@@ -28,7 +30,7 @@ export const Language = ({ items, mobile }: Props) => {
         value={language}
         defaultValue="en"
       >
-        <SelectTrigger className="bg-custom dark:bg-custom-dark w-fit">
+        <SelectTrigger className="w-fit bg-custom dark:bg-custom-dark">
           <SelectValue placeholder="language" />
         </SelectTrigger>
         <SelectContent className="bg-background text-white dark:bg-background-dark">

@@ -1,5 +1,6 @@
-import { GitHubLogoIcon, LightningBoltIcon } from '@radix-ui/react-icons'
 import Image from 'next/image'
+
+import { GitHubLogoIcon, LightningBoltIcon } from '@radix-ui/react-icons'
 
 type ProjectItemProps = {
   title: string

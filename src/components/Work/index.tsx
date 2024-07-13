@@ -1,8 +1,10 @@
 'use client'
-import workJSON from '@/static/json/work.json'
-import extrasJSON from '@/static/json/extras.json'
-import { WorkItem } from './WorkItem'
 import { useLanguage } from '@/contexts/LanguageContext'
+
+import extrasJSON from '@/static/json/extras.json'
+import workJSON from '@/static/json/work.json'
+
+import { WorkItem } from './WorkItem'
 
 export const Work = () => {
   const { language } = useLanguage()

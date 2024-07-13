@@ -1,8 +1,8 @@
 import { Header } from '@/components/Header'
 import { ButtonTheme } from '@/components/Header/ButtonTheme'
+import { Projects } from '@/components/projects'
 import { Study } from '@/components/Study'
 import { Work } from '@/components/Work'
-import { Projects } from '@/components/projects'
 
 export default function Home() {
   return (

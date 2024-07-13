@@ -1,6 +1,7 @@
 'use client'
-import { useTheme } from '@/contexts/ThemeContext'
 import { Moon, Waves } from '@phosphor-icons/react/dist/ssr'
+
+import { useTheme } from '@/contexts/ThemeContext'
 
 export const ButtonTheme = () => {
   const { toggleTheme, theme } = useTheme()
