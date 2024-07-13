@@ -1,3 +1,4 @@
+import { Social } from '@/components/sections/header/Socials'
 import {
   GithubLogo,
   InstagramLogo,
@@ -10,28 +11,28 @@ import { Social } from '@/components/Header/Socials'
 export const socialsList: Social[] = [
   {
     name: 'Twitter',
-    url: '#',
+    url: 'https://twitter.com/RExquilo',
     className: 'hover:text-[#7ABFF6]',
     iconColor: '#7ABFF6',
     icon: TwitterLogo,
   },
   {
     name: 'Instagram',
-    url: '#',
+    url: 'https://www.instagram.com/rafael_rlm_/',
     className: 'hover:text-[#EE613C]',
     iconColor: '#EE613C',
     icon: InstagramLogo,
   },
   {
     name: 'Linkedin',
-    url: '#',
+    url: 'https://www.linkedin.com/in/rafael-leal-machado-4966261b3/',
     className: 'hover:text-[#64A3DD]',
     iconColor: '#64A3DD',
     icon: LinkedinLogo,
   },
   {
     name: 'Github',
-    url: '#',
+    url: 'https://github.com/dev-rafaelmachado',
     className: 'hover:text-[#CDC8C2]',
     iconColor: '#CDC8C2',
     icon: GithubLogo,

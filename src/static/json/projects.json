@@ -1,0 +1,45 @@
+
+{
+    "en": [
+        {
+            "title": "Fast Copy",
+            "description": "Fast Copy is a project aimed at facilitating the copying of texts/information between two or more devices without the need to install apps or extensions. With it, you can copy a text on one device, enter a room, and register the copied text, then access the same room on another device and copy the saved text. Rooms can also have passwords to ensure the privacy of the copied texts.",
+            "img": "/imgs/projects/fast-copy.png",
+            "githubLink": "https://github.com/dev-rafaelmachado/fast-copy/tree/master",
+            "demoLink": "https://fast-copy.vercel.app"
+        },
+        {
+            "title": "Distinct Colors",
+            "description": "Distinct Colors is a game developed with React Native and Expo, where the goal is to click on the color that differs from the others.The game has three difficulty levels: easy, medium and difficult, and a 'climbing' mode where the difficulty increases with each round. The game has a scoring system and records.besides saving the player's progress.",
+            "img": "/imgs/projects/distinct-colors.png",
+            "githubLink": "https://github.com/dev-rafaelmachado/distinct-colors"
+        },
+        {
+            "title": "MedSync",
+            "description": "This project is a web system to make appointments, including a function that allows doctors to request the uncheck of consultations by the administrator. The project was developed to explore and improve my skills in React, Next.JS and TypeScript,Motivated by the Volvo technical test that my friend performed @marcelowf.",
+            "img": "/imgs/projects/med-sync.png",
+            "githubLink": "https://github.com/dev-rafaelmachado/MedSync"
+        }
+    ],
+    "pt_br": [
+        {
+            "title": "Fast Copy",
+            "description": "Fast Copy é um projeto que tem como objetivo facilitar a cópia de textos/informações entre 2 ou mais dispositivos sem a necessidade de instalar aplicativos ou extensões. Nele você pode copiar um texto em um dispositivo entrar em uma sala e registrar o texto copiado, e em outro dispositivo acessar a mesma sala e copiar o texto salvo. As salas também podem possuir senha para garantir a privacidade dos textos copiados.",
+            "img": "/imgs/projects/fast-copy.png",
+            "githubLink": "https://github.com/dev-rafaelmachado/fast-copy/tree/master",
+            "demoLink": "https://fast-copy.vercel.app"
+        },
+        {
+            "title": "Distinct Colors",
+            "description": "Distinct Colors é um jogo desenvolvido com React Native e Expo, onde o objetivo é clicar na cor que difere das outras. O jogo possui três níveis de dificuldade: fácil, médio e difícil, e um modo 'escalada' onde a dificuldade aumenta a cada rodada. O jogo possui um sistema de pontuação e recordes, além de salvar o progresso do jogador.",
+            "img": "/imgs/projects/distinct-colors.png",
+            "githubLink": "https://github.com/dev-rafaelmachado/distinct-colors"
+        },
+        {
+            "title": "MedSync",
+            "description": "Este projeto é um sistema web para marcar consultas, incluindo uma função que permite aos médicos solicitar o desmarque de consultas pelo administrador. O projeto foi desenvolvido para explorar e aprimorar minhas habilidades em React, Next.JS e TypeScript, motivado pelo teste técnico da Volvo que meu amigo realizou @marcelowf.",
+            "img": "/imgs/projects/med-sync.png",
+            "githubLink": "https://github.com/dev-rafaelmachado/MedSync"
+        }
+    ]
+}

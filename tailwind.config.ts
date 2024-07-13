@@ -18,6 +18,12 @@ const config = {
       },
     },
     extend: {
+      boxShadow: {
+        slim: '16px 16px 35px #121314, -16px -16px 35px #212324',
+      },
+      backgroundColor: {
+        'item-card': 'linear-gradient(145deg, #171819, #1b1d1e)',
+      },
       colors: {
         border: 'hsl(var(--border))',
         input: 'hsl(var(--input))',
