@@ -19,6 +19,12 @@
             "description": "This project is a web system to make appointments, including a function that allows doctors to request the uncheck of consultations by the administrator. The project was developed to explore and improve my skills in React, Next.JS and TypeScript,Motivated by the Volvo technical test that my friend performed @marcelowf.",
             "img": "/imgs/projects/med-sync.png",
             "githubLink": "https://github.com/dev-rafaelmachado/MedSync"
+        },
+        {
+            "title": "Truco Marker",
+            "description": "An Android app to mark tricks, with features like marking points, using the multiplier, history of rounds that can be undone, along with data persistence on the device.",
+            "img": "/imgs/projects/truco-marker.png",
+            "githubLink": "https://github.com/dev-rafaelmachado/truco-marker"
         }
     ],
     "pt_br": [
@@ -40,6 +46,12 @@
             "description": "Este projeto é um sistema web para marcar consultas, incluindo uma função que permite aos médicos solicitar o desmarque de consultas pelo administrador. O projeto foi desenvolvido para explorar e aprimorar minhas habilidades em React, Next.JS e TypeScript, motivado pelo teste técnico da Volvo que meu amigo realizou @marcelowf.",
             "img": "/imgs/projects/med-sync.png",
             "githubLink": "https://github.com/dev-rafaelmachado/MedSync"
+        },
+        {
+            "title": "Truco Marker",
+            "description": "Um aplicativo de marcação de truco para Android onde possui funcionalidades como marcar pontos, utilizar o multiplicador, histórico de rodadas podendo desfazer as rodadas, além da persistência de dados no dispositivo.",
+            "img": "/imgs/projects/truco-marker.png",
+            "githubLink": "https://github.com/dev-rafaelmachado/truco-marker"
         }
     ]
 }

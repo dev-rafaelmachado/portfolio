@@ -6,7 +6,6 @@ import {
   TwitterLogo,
 } from '@phosphor-icons/react/dist/ssr'
 
-import { Social } from '@/components/Header/Socials'
 
 export const socialsList: Social[] = [
   {
