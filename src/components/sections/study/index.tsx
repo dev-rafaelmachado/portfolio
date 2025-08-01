@@ -1,8 +1,8 @@
 'use client'
 import { useLanguage } from '@/contexts/LanguageContext'
 
-import studyJSON from '@/static/json/study.json'
 import extrasJSON from '@/static/json/extras.json'
+import studyJSON from '@/static/json/study.json'
 
 import { StudyItem } from './StudyItem'
 

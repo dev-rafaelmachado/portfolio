@@ -1,9 +1,11 @@
 'use client'
 
 import { useLanguage } from '@/contexts/LanguageContext'
-import { ProjectItem } from './ProjectItem'
-import projectsJSON from '@/static/json/projects.json'
+
 import extrasJSON from '@/static/json/extras.json'
+import projectsJSON from '@/static/json/projects.json'
+
+import { ProjectItem } from './ProjectItem'
 
 export const Projects = () => {
   const { language } = useLanguage()

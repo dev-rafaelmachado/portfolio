@@ -1,5 +1,6 @@
-import { useLanguage } from '@/contexts/LanguageContext'
 import Image from 'next/image'
+
+import { useLanguage } from '@/contexts/LanguageContext'
 
 type Props = {
   languagesList: {
